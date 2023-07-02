@@ -18,7 +18,7 @@ export const Login: React.FC = () => {
       try {
         window.google.accounts.id.initialize({
           ux_mode: "popup",
-          client_id: "your-client-id",
+          client_id: "187562179647-hgilrovemb9ljqbpgr033ovmm67a434u.apps.googleusercontent.com",
           callback: async (res: CredentialResponse) => {
             if (res.credential) {
               login(res);
@@ -42,7 +42,7 @@ export const Login: React.FC = () => {
     <Box
       component="div"
       sx={{
-        background: `radial-gradient(50% 50% at 50% 50%, #63386A 0%, #310438 100%)`,
+        background: `radial-gradient(50% 50% at 50% 50%, #63386A 0%, #3306a4ab 100%)`,
         backgroundSize: "cover",
       }}
     >
